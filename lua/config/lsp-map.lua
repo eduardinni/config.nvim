@@ -68,11 +68,11 @@ vim.diagnostic.config({
       [severity.INFO] = " ",
     },
   },
-  virtual_text = {
-    spacing = 2,
-    prefix = "■",
-    format = function(diagnostic)
-      return diagnostic.message
-    end,
-  },
+  -- virtual_text = {
+  --   spacing = 2,
+  --   prefix = "■",
+  --   format = function(diagnostic)
+  --     return diagnostic.message
+  --   end,
+  -- },
 })
