@@ -7,13 +7,14 @@ return {
       function()
         require("conform").format({ async = true })
       end,
-      mode = "",
       desc = "Format buffer",
     }
   },
   opts = {
     formatters_by_ft = {
-      javascript = { "prettierd", "prettier", stop_after_first = true },
+      javascript = { "prettier" },
+      typescript = { "prettier" },
+      typescriptreact = { "prettier" },
       ruby = { "rubocop" },
     },
   },

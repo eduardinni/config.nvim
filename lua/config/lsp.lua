@@ -75,4 +75,12 @@ vim.diagnostic.config({
   --     return diagnostic.message
   --   end,
   -- },
+  float = {
+    focusable = false,
+    style = "minimal",
+    border = "rounded",
+    source = "always",
+    header = "",
+    prefix = "",
+  },
 })

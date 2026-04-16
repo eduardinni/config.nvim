@@ -11,12 +11,6 @@ return {
             return require("lsp-progress").progress()
           end
         },
-        lualine_x = {
-          function()
-            return require("auto-session.lib").current_session_name(true)
-          end,
-        },
-        
       },
     })
   end
