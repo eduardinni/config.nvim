@@ -1,4 +1,4 @@
-# Neovim Configuration
+# eduardinni/config.nvim
 
 A modern Neovim setup with LSP support, fuzzy finding, and a clean UI.
 
@@ -14,7 +14,6 @@ A modern Neovim setup with LSP support, fuzzy finding, and a clean UI.
 ### File Explorer & Navigation
 - **Neo-tree** - File browser with icons (auto-opens on startup)
 - **Telescope** - Fuzzy finder for files, buffers, and live grep
-- Native LSP goto definitions and references
 
 ### LSP & Autocomplete
 - **Mason** - Package manager for LSP servers, linters, and formatters
@@ -22,7 +21,7 @@ A modern Neovim setup with LSP support, fuzzy finding, and a clean UI.
 - **nvim-cmp** - Completion engine with LSP and snippet support
 - **LuaSnip** - Snippet engine with friendly-snippets
 
-Installed LSP servers:
+### Installed LSP servers:
 - Ruby: `ruby_lsp`, `rubocop`
 - JavaScript/TypeScript: `ts_ls`, `eslint`
 
