@@ -11,6 +11,9 @@ A modern Neovim setup with LSP support, fuzzy finding, and a clean UI.
 - **Barbecue** - Breadcrumb navigation in the statusline
 - **Alpha-nvim** - Startup screen with recent files
 
+### Tmux Navigation
+- **nvim-tmux-navigation** - Seamless navigation between Neovim and tmux panes
+
 ### File Explorer & Navigation
 - **Neo-tree** - File browser with icons (auto-opens on startup)
 - **Telescope** - Fuzzy finder for files, buffers, and live grep
@@ -35,6 +38,14 @@ A modern Neovim setup with LSP support, fuzzy finding, and a clean UI.
 - **Comment.nvim** - Toggle comments
 
 ## Keymaps
+
+### Tmux Navigation
+| Key | Action |
+|-----|--------|
+| `<C-h>` | Navigate left to tmux pane |
+| `<C-j>` | Navigate down to tmux pane |
+| `<C-k>` | Navigate up to tmux pane |
+| `<C-l>` | Navigate right to tmux pane |
 
 ### General
 | Key | Action |
